@@ -1,7 +1,0 @@
-blic class KiemChungVien extends NhanVien {
-    private int soLoi;
-
-    public KiemChungVien(String maNhanVien, String hoTen, int tuoi, String soDienThoai, String email, double luongCoBan, int soLoi) {
-        super(maNhanVien, hoTen, tuoi, soDienThoai, email, luongCoBan);
-        this.soLoi = soLoi;
-    }
